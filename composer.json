@@ -1,0 +1,31 @@
+{
+    "name": "arcadia/flarum-ext-google-font-cdn",
+    "description": "Use ustc CDN for google fonts",
+    "type": "flarum-extension",
+    "keywords": ["google-font","cdn","ustc","gfw"],
+    "version": "0.1.0",
+    "authors": [
+        {   
+            "name": "Arcadia",
+            "email": "Arcadia822@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/arcadia822/flarum-ext-/issues",
+        "source": "https://github.com/arcadia822/flarum-ext-"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.5"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Google Font CDN",
+            "icon": {
+                "name": "font",
+                "backgroundSize": "cover",
+                "backgroundColor": "#138AEB",
+                "color": "#fff"
+	     }
+	}
+    }
+}
